@@ -1,0 +1,14 @@
+- name: Taruma Sakti Megariansyah
+  nickname: taruma
+  alias: UMA
+  github: taruma
+  site: taruma.github.io
+  role: core
+  projects:
+    - hidrokit
+    - notebook
+    - blog
+    - inkovis
+  photo: null
+  description: |
+    Python Programmer

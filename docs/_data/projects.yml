@@ -1,0 +1,61 @@
+# template
+# - name: _name_
+#   category: _category_
+#   description: |
+#     _description_
+#   website: _website_
+#   github: _github_
+#   date_start: _datestart_
+#   date_end: _dateend_
+#   license: _license_
+#   status: active
+
+- name: hidrokit
+  category:
+    - python
+    - website
+  description: |
+    Paket python yang dapat digunakan untuk membantu proses analisis hidrologi berupa pengolahan data, analisis data, dan visualisasi data.
+  website: hidrokit.github.io/hidrokit
+  github: hidrokit/hidrokit
+  date_start: 2019-01-09
+  date_end: null
+  license: MIT
+  status: active
+
+- name: notebook
+  category:
+    - website
+  description: |
+    Portal berupa situs yang berisikan kumpulan jupyter notebook mengenai penggunaan hidrokit dan python dalam bidang sumberdaya air.
+  website: hidrokit.github.io/notebook
+  github: hidrokit/notebook
+  date_start: 2019-06-22
+  date_end: null
+  license: MIT / CC-BY-4.0
+  status: active
+
+- name: blog
+  category:
+    - website
+  description: |
+    Blog yang menginformasikan perkembangan hidrokit atau artikel di bidang sumberdaya air.
+  website: hidrokit.github.io/blog
+  github: hidrokit/blog
+  date_start: 2019-07-20
+  date_end: null
+  license: MIT / CC-BY-4.0
+  status: active
+
+- name: inkovis
+  category:
+    - python
+    - website
+  description: |
+    Pengembangan modul python untuk memvisualisasikan data infeksi COVID-19.
+  website: hidrokit.github.io/inkovis
+  github: hidrokit/inkovis
+  date_start: 2020-03-24
+  date_end: 2020-06-02
+  license: MIT / CC-BY-4.0
+  status: end

@@ -1,0 +1,18 @@
+{% assign collection = site.data.team %}
+
+{% assign new_collection = collection %}
+
+<ul>
+    {% for item in new_collection %}
+    <li>
+        <span class="text-bold">{{ item.name }}</span>
+        <span class="text-bold">(<a href="https://github.com/{{ item.github }}"
+                target="_blank">@{{ item.github }}</a>)</span>
+        <span class="Label bg-blue">{{ item.role }}</span>
+        <br> projects:
+        {% for project in item.projects %}
+        <span class="Label bg-yellow text-gray-dark">{{ project }}</span>
+        {% endfor %}
+    </li>
+    {% endfor %}
+</ul>
