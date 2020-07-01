@@ -12,3 +12,25 @@
   photo: null
   description: |
     Python Programmer
+
+- name: Cahya Suryadi
+  nickname: cahya1123
+  alias: null
+  github: cahya1123
+  site: null
+  role: contributors
+  projects:
+    - blog
+  photo: null
+  description: null
+
+- name: cdortyh
+  nickname: cdortyh
+  alias: null
+  github: cdortyh
+  site: null
+  role: contributors
+  projects:
+    - blog
+  photo: null
+  description: null

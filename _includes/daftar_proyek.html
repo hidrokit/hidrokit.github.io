@@ -18,8 +18,15 @@
         <span>{{ item.description }}</span>
         <br>
         <div class="d-flex flex-wrap flex-justify-center">
-            <a href="https://github.com/{{ item.github }}" role="button" class="btn m-1" target="_blank">Repository</a>
-            <a href="//{{ item.website }}" role="button" class="btn m-1 btn-outline" target="_blank">Situs</a>
+            <a href="https://github.com/{{ item.github }}" role="button" class="btn m-1">Repository</a>
+            {% if item.website %}
+            {% assign aria = "false" %}
+            {% assign website = "//{{ item.website }}" %}
+            {% else %}
+            {% assign aria = "true" %}
+            {% assign website = "#url" %}
+            {% endif %}
+            <a href="{{ website }}" role="button" class="btn m-1 btn-outline" aria-disabled="{{ aria }}">Situs</a>
         </div>
     </div>
     {% endfor %}
