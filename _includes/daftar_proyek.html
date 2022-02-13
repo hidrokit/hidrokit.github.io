@@ -21,7 +21,7 @@
             <a href="https://github.com/{{ item.github }}" role="button" class="btn m-1">Repository</a>
             {% if item.website %}
             {% assign aria = "false" %}
-            {% assign website = "{{ item.website }}" %}
+            {% assign website = {{ item.website }} %}
             {% else %}
             {% assign aria = "true" %}
             {% assign website = "#url" %}
