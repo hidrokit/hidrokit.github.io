@@ -52,7 +52,7 @@
     - documentation
   description: |
     Repository untuk dokumentasi manual proyek hidrokit dan lainnya.
-  website: null
+  website: "#url"
   github: hidrokit/manual
   date_start: 2019-07-29
   date_end: null
