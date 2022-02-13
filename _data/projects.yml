@@ -16,7 +16,7 @@
     - website
   description: |
     Paket python yang dapat digunakan untuk membantu proses analisis hidrologi berupa pengolahan data, analisis data, dan visualisasi data.
-  website: hidrokit.github.io/hidrokit
+  website: https://hidrokit.github.io/hidrokit
   github: hidrokit/hidrokit
   date_start: 2019-01-09
   date_end: null
@@ -28,7 +28,7 @@
     - website
   description: |
     Portal berupa situs yang berisikan kumpulan jupyter notebook mengenai penggunaan hidrokit dan python dalam bidang sumberdaya air.
-  website: hidrokit.github.io/notebook
+  website: https://hidrokit.github.io/notebook
   github: hidrokit/notebook
   date_start: 2019-06-22
   date_end: null
@@ -40,7 +40,7 @@
     - website
   description: |
     Blog yang menginformasikan perkembangan hidrokit atau artikel di bidang sumberdaya air.
-  website: hidrokit.github.io/blog
+  website: https://hidrokit.github.io/blog
   github: hidrokit/blog
   date_start: 2019-07-20
   date_end: null
@@ -65,7 +65,7 @@
     - website
   description: |
     Pengembangan modul python untuk memvisualisasikan data infeksi COVID-19.
-  website: hidrokit.github.io/inkovis
+  website: https://hidrokit.github.io/inkovis
   github: hidrokit/inkovis
   date_start: 2020-03-24
   date_end: 2020-06-02
