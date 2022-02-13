@@ -21,12 +21,12 @@
             <a href="https://github.com/{{ item.github }}" role="button" class="btn m-1">Repository</a>
             {% if item.website %}
             {% assign aria = "false" %}
-            {% assign website = {{ item.website }} %}
+            {% assign situs = {{ item.website }} %}
             {% else %}
             {% assign aria = "true" %}
-            {% assign website = "#url" %}
+            {% assign situs = "#url" %}
             {% endif %}
-            <a href="{{ website }}" role="button" class="btn m-1 btn-outline" aria-disabled="{{ aria }}">Situs</a>
+            <a href="{{ situs }}" role="button" class="btn m-1 btn-outline" aria-disabled="{{ aria }}">Situs</a>
         </div>
     </div>
     {% endfor %}
