@@ -5,9 +5,11 @@
 <ul>
     {% for item in new_collection %}
     <li>
-        <span class="text-bold">{{ item.name }}</span>
+        <span class="text-bold">{{ item.name }} </span>
+        {%- if item.github -%}
         <span class="text-bold">(<a href="https://github.com/{{ item.github }}"
-                target="_blank">@{{ item.github }}</a>)</span>
+                target="_blank">@{{ item.github }}</a>) </span>
+        {%- endif -%}
         <span class="Label bg-blue">{{ item.role }}</span>
         <br> projects:
         {% for project in item.projects %}

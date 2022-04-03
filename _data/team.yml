@@ -3,11 +3,12 @@
   alias: UMA
   github: taruma
   site: taruma.github.io
-  role: core
+  role: syndicate
   projects:
     - hidrokit
     - notebook
     - blog
+    - manual
     - inkovis
   photo: null
   description: |
@@ -18,18 +19,29 @@
   alias: null
   github: cahya1123
   site: null
-  role: contributors
+  role: syndicate
   projects:
     - blog
   photo: null
   description: null
 
-- name: cdortyh
+- name: Christine Dorty Hadi
   nickname: cdortyh
   alias: null
   github: cdortyh
   site: null
-  role: contributors
+  role: syndicate
+  projects:
+    - blog
+  photo: null
+  description: null
+
+- name: Dicky Muhammad Fadli
+  nickname: 
+  alias: null
+  github: 
+  site: null
+  role: syndicate
   projects:
     - blog
   photo: null
