@@ -3,14 +3,11 @@
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     {%- seo -%}
-    <link href="https://unpkg.com/@primer/css@^19.0.0/dist/primer.css" rel="stylesheet" />
-    <!-- <link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet"/> -->
-    <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
     {%- feed_meta -%}
     {%- if jekyll.environment == 'production' and site.google_analytics -%}
         {%- include google-analytics.html -%}
     {%- endif -%}
 
-    <link rel="icon" href="{{ "/favicon.ico" | relative_url }}" type="image/x-icon"/>
+    {% include custom-head.html %}
 
 </head>
