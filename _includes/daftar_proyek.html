@@ -5,9 +5,9 @@
 <div class="border d-flex flex-column my-3 border-blue">
     {% for item in new_collection %}
     {% if item.status == "active" %}
-    {% assign bgcolor = "bg-green-light" %}
+    {% assign bgcolor = "color-bg-open" %}
     {% else %}
-    {% assign bgcolor = "bg-gray" %}
+    {% assign bgcolor = "color-bg-done" %}
     {% endif %}
     <div class="p-2 pl-3 border {{ bgcolor }}">
         <span class="f2-light text-gray-light">hidrokit/</span><span class="f2 text-bold">{{ item.name }}</span>

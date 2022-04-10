@@ -27,7 +27,7 @@
   category:
     - website
   description: |
-    Portal informasi yang berisikan kumpulan _jupyter notebook_ mengenai penggunaan hidrokit dan python dalam bidang sumberdaya air atau umum.
+    Portal informasi yang berisikan kumpulan jupyter notebook mengenai penggunaan hidrokit dan python dalam bidang sumberdaya air atau umum.
   website: https://hidrokit.github.io/notebook
   github: hidrokit/notebook
   date_start: 2019-06-22
